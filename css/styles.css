@@ -1,0 +1,32 @@
+body {
+    background-color: #f5f6fa;
+}
+hr {
+    border-style: dotted none none; 
+    border-width: 5px; 
+    border-color: #A6B7D7;
+    margin-right:45%;
+}
+
+h1 {
+    font-family:sans-serif;
+    color:#193d67;
+}
+
+h3 {
+    color:#193d67;
+}
+
+p,a {
+    color: #475F7B;
+}
+
+img {
+    border-radius: 200px;
+}
+
+.eduback, .skills, .hobbies, .courses, .contact, .form {
+    color: #475F7B;
+}
+
+
