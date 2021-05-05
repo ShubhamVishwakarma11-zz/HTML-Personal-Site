@@ -4,13 +4,14 @@
   <head>
     <meta charset = "UTF-8">
     <title> ✪ Shubham's Personal Website </title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+  <body >
     <!--Making the layout using table-->
-    <table>
+    <table cellspacing=20>
       <tr>
         <!--Attaching Image-->
-        <td><img src = "images/my-profile-pic.jpeg" alt = "Just-a-picture" ></td>
+        <td><img src = "images/my-profile-pic.jpg" alt = "Just-a-picture"></td>
         <td><h1> Shubham Vishwakarma</h1> <hr>
           <p><em>Undergraduate Student at <strong><a href = "https://www.iiitn.ac.in/">IIIT Nagpur</a></strong></em>.</p>
           <p>Hello! My name is Shubham Vishwakarma</p><p> I am currently learning Web Development.</p>
@@ -20,7 +21,7 @@
     <hr>
     <!--Unordered List (Currently enrolled Course) && Hyperlinks to External Sites-->
     <h3>Currently enrolled Courses </h3>
-    <ul>
+    <ul class = "courses">
       <li>Angela Yu's <a href = "https://www.udemy.com/course/the-complete-web-development-bootcamp/"> Web Development Bootcamp</a></li>
       <li>Cousera's <a href = "https://www.coursera.org/specializations/algorithms">Algorithms Course</a></li>
       <li>Academic Courses</li>
@@ -32,7 +33,7 @@
     </ul>
     <!--Table Content--> 
     <h3> Educational Background</h3>
-    <table border="1">
+    <table class="eduback" cellspacing=7>
         <thead>
             <th> Year </th>
             <th> Institution </th>
@@ -55,7 +56,7 @@
     <hr> 
     <!--Another Table Content--> 
     <h3> Skills </h3>
-    <table cellspacing = "15">
+    <table class="skills" cellspacing = "15">
       <tr>
         <td> C Programming  ⭐⭐⭐⭐⭐</td> 
         <td> HTML5 ⭐⭐</td>
@@ -69,7 +70,7 @@
     
     <!--Ordered List (Hobbies)-->
     <h3>Hobbies</h3>
-    <ol type = 'I'>
+    <ol class="hobbies" type = 'I'>
         <li>Coding</li>
         <li>Football</li>
         <li>Badminton</li>
@@ -83,3 +84,4 @@
     <a href = "#"> ⬆  Go back to top</a>
   </body>
 </html>
+
